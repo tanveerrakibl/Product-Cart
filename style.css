@@ -1,0 +1,42 @@
+body{
+    background-color: #f3eae3;
+}
+.main{
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+.image img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.main-text{
+    padding-left: 20px;
+}
+.text h4{
+    line-height: 170%;
+}
+.price {
+    display: inline-flex;
+    align-items: center;
+}
+.price h1{
+    color: green;
+    padding-right: 30px;
+}
+.price p{
+    text-decoration: line-through;
+}
+.cart{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #1a4031;
+    text-align: center;
+    margin-right: 35px;
+    color: white;
+    padding: 10px;
+}   
